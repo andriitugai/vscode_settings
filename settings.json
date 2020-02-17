@@ -1,24 +1,26 @@
 {
-    "python.linting.enabled": true,
-    "editor.renderControlCharacters": true,
+    "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[python]": {},
+    // "python.linting.enabled": true,
     "window.zoomLevel": 1,
-    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Predawn",
     "workbench.iconTheme": "ayu",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
-    "python.pythonPath": "C:\\Users\\andri\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
-    // "terminal.integrated.shellArgs.windows": [
-    //     "-ExecutionPolicy",
-    //     "Bypass"
-    // ],
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
+    "python.pythonPath": "C:\\Program Files (x86)\\Python\\python.exe",
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "Bypass"
+    ],
+    // "python.formatting.provider": "autopep8",
+    // "editor.formatOnSave": true,
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.showExecutionMessage": false,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "git.autofetch": true,
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-bash.exe"
 }
